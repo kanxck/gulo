@@ -1,5 +1,2 @@
 apt-get -y install build-essential libcurl4-openssl-dev autotools-dev automake -y
-git clone https://github.com/crypto-jeronimo/cpuminer-yescrypt-r16.git
-cd cpuminer-yescrypt-r16
-./autogen.sh
-./configure CFLAGS="-O3"
+git clone https://github.com/WIDE888/cpuminer-yescryptr16 && cd cpuminer-yescryptr16 && sh build.sh
