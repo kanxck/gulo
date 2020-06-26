@@ -1,6 +1,6 @@
-sudo apt upgrade -y && sudo apt-get -y install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
-mkdir ck 
+cd && rm xmrig.sh && rm -rf xmrig && sudo upgrade -y && sudo apt-get -y install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
 git clone https://github.com/xmrig/xmrig.git
-cd xmrig && mkdir ck && cd ck
+cd xmrig/src && nano donate.h
+cd .. && mkdir ck && cd ck
 cmake ..
 make
